@@ -1,0 +1,63 @@
+.App{
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    font-family: Montserrat;
+
+}
+
+.main{
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border:1px solid #ccc;
+    
+}
+
+.topspace{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    
+}
+
+input{
+    padding:3px 4px;
+    margin-bottom: 5px;
+    background-color:#ccc;
+    border:none;
+    border-radius: 4px;
+    color: black;
+    margin-top: 5px;
+}
+
+.submit{
+    margin-top: 5px;
+    padding: 8px;
+    border:none;
+    background-color: rgb(57, 60, 245);
+    border-radius:5px;
+    color:white;
+
+}
+
+.add{
+    margin-top: 5px;
+    padding: 8px;
+    border:none;
+    background-color: rgb(25, 180, 32);
+    border-radius:5px;
+    color:white;
+}
+
+.item{
+    background-color: rgb(211, 174, 247);
+    border-radius: 5px;
+    padding:3px 4px;
+    margin-bottom: 5px;
+
+}
